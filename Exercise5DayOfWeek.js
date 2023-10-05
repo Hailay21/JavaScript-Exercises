@@ -1,4 +1,4 @@
-let dayOfWeek= 8;
+let dayOfWeek= 7;
 let dayOfName ;
 switch(dayOfWeek) {
 case 1:
@@ -22,11 +22,11 @@ case 6:
 case 7:
     dayOfName = 'Sunday';
     break;
-default:
-    console.error ('Invalid day of week entered and try again');
-}
+// default:
+//     console.log ('Invalid day of week entered and try again');
+// }
 
-if (dayOfName>=0 && dayOfName<=day) {
+// if (dayOfName>=0 && dayOfName<=day) {
 
 console.log(`Day Of the Week is: ${dayOfName}`); 
 }
